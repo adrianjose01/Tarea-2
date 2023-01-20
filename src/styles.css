@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+h1,
+p,
+button,
+input {
+  font-family: "Fira Sans Condensed", sans-serif !important;
+}
+
+.titulo {
+  text-align: center;
+  margin: 3rem;
+}
+
+.btn {
+  width: 75px;
+  height: 75px;
+  font-size: 24px;
+  background-color: aqua;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.btn_borrar_historial {
+  font-size: 24px;
+  background-color: aqua;
+  padding: 0.4rem 2rem;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn_borrar_historial:hover {
+  background-color: rgba(0, 255, 255, 0);
+}
+
+.contenedor_botones {
+  text-align: center;
+}
+
+.entrada {
+  text-align: center;
+  margin: 0.2rem;
+}
+
+.entrada input {
+  width: 330px;
+  height: 50px;
+  background-color: aqua;
+  outline: none;
+  border: 2px outset black;
+  font-size: 24px;
+}
+
+p {
+  font-size: 22px;
+}
